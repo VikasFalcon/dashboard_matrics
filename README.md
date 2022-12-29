@@ -1,3 +1,16 @@
+# Dashboard Marics using Redis
+
+## Requirement
+
+- Shopping store has multiple categories
+- Approx 10 million transaction happen on daily basis
+- Dashboard components
+ > Day wise metrics: Number of transactions
+ > Day wise metrics: Number of category wise transactions
+ > Day wise metrics: Total amount in sales
+ > Day wise metrics: total amount in sales category wise
+ > All the above metrics but store wise
+
 ## Prerequisite
 
 - Node version 14.x.x
@@ -6,10 +19,11 @@
 - Redis server
 
 ## Installation
-Go to the project directory and follow below commands
+
 Install application packages:
+
 ```sh
-npm install
+node install
 ```
 
 To Run Application:
